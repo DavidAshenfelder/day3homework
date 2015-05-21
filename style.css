@@ -1,0 +1,205 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  background-color: white;
+  padding: 2px;
+}
+
+h6 {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.body {
+  max-width: 300px
+  border-bottom: 2px solid grey;
+  border: 2px;
+  border-color: #cacaca;
+  }
+
+.header ul {
+   display: inline-block;
+   width:900;
+   padding:0 50px 0 50px;
+   margin: 0;
+   border: 0;
+   border: 2px;
+   border-color: #cacaca
+
+ }
+
+.header {
+  background-size: cover;
+  background-image: url(http://up357.siz.co.il/up1/ylbdtnml4hjn.jpg);
+  background-position: center;
+  display: inline-block;
+  list-style-type: none;
+  width: auto;
+}
+
+.header h6 {
+  margin: 50px 300px 50px 300px;
+  padding: 50px 0px 50px 0px;
+  max-width: 900px
+  height:300px
+  position: relative;
+  bottom: 0px;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+.header p {
+  margin: 0;
+  width: auto;
+  height:300px
+  position: relative;
+  bottom: 100px;
+  font-size: 10px;
+  color: black;
+  text-align: center;
+}
+
+
+.topnavbar {
+  position: relative;
+  top: 0;
+}
+
+.topnavbar ul li {
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px;
+  width:1000px;
+}
+
+.topnavbar div {
+  position: relative;
+  top:0px;
+}
+
+.topnavbar h6 {
+  position: relative;
+}
+
+.topnavbar p {
+  position: relative;
+}
+
+.section1 {
+  float: left;
+  width: 50%;
+  margin-left:10%
+}
+
+.topnavbar li {
+  display: inline;
+  width: 100%;
+}
+
+section {
+  height: 350px;
+}
+section h2 {
+  font-size: 35px;
+  width: auto;
+  text-align: left;
+}
+
+aside {
+  margin-top: 30px;
+  float: right;
+  width: 20%;
+  margin-right: 10%;
+}
+
+.aside1 p {
+  width: 100%;
+}
+.aside1 ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 12px;
+}
+
+.aside1 div img {
+
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border: 2px;
+  border-color: black;
+  margin-left: 20%
+}
+
+.aside1 p img {
+  width: 100%;
+
+
+}
+
+.aside1 h1 {
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+.section2 {
+  float: left;
+  width: 50%;
+  margin-left:10%;
+
+}
+
+.section2 div h3 {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px;
+  float: left;
+  color:#232252;
+  border-left: 2px;
+  border-color: #cacaca;
+
+}
+
+.section2 div p {
+  float: left;
+  text-align: left;
+}
+
+.section3 {
+  display: hidden;
+  width: 100%;
+  border-bottom: 2px;
+
+}
+
+.footer ul{
+  list-style-type: none;
+  display: inline-block;
+  float: bottom;
+  width: 100%;
+  padding: 0 10% 0 10%;
+}
+
+.footer img {
+  float: left;
+  display: inline-block;
+  width: 25%;
+  height: 200px;
+}
+
+.footer h2 {
+  font-size: 50px;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.footer div p {
+
+}

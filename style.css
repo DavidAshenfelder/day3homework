@@ -8,6 +8,11 @@ html {
   padding: 2px;
 }
 
+img {
+  background: linear-gradient(rgb(62, 118, 175),rgb(62, 118, 175));
+  opacity: .5;
+}
+
 h6 {
   font-size: 50px;
   font-family: sans-serif;
@@ -214,11 +219,8 @@ aside {
   text-align: center;
 }
 
-.transbox img {
-  margin: 30px;
-  background-color: #000000;
-  border: 1px solid black;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-
+.transbox ul li img {
+  background: linear-gradient(rgb(62, 118, 175),rgb(62, 118, 175));
+  
+  opacity: .7;
 }

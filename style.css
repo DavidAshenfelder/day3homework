@@ -5,13 +5,15 @@
 }
 html {
   background-color: white;
-  padding: 2px;
 }
 
-img {
-  background: linear-gradient(rgb(62, 118, 175),rgb(62, 118, 175));
-  opacity: .5;
+.page-wrapper {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
 }
+
 
 h6 {
   font-size: 50px;
@@ -26,75 +28,101 @@ h6 {
   border-color: #cacaca;
   }
 
-.header ul {
-   display: inline-block;
-   width:900;
-   padding:0 50px 0 50px;
-   margin: 0;
-   border: 0;
-   border: 2px;
-   border-color: #cacaca
-
- }
 
 .header {
+  background: linear-gradient(to right, rgba(30, 110, 176, 0.7), rgba(30, 110, 176, 0.7)), url(http://up357.siz.co.il/up1/ylbdtnml4hjn.jpg);
   background-size: cover;
-  background-image: url(http://up357.siz.co.il/up1/ylbdtnml4hjn.jpg);
-  background-position: center;
-  display: inline-block;
   list-style-type: none;
+  width:105%;
+  max-height: 300px;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0, auto;
+  margin-bottom: 0, auto;
+}
+
+.nav-bar {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  font-size: 2vmax;
+}
+
+.nav-bar-wrapper {
+  width: 100%;
+}
+
+.wave {
+  display: inline-block;
   width: auto;
+  height: auto;
+  margin: 0;
+  float: left;
+}
+
+.wave img {
+  width: 20px%;
+  height: 20px;
+
+}
+
+.blog {
+  width: 40%;
+  display: inline-block;
+  float: left;
+  margin-top: 2%;
+  margin-left: 10%;
+
+
+}
+
+.blog a {
+  display: inline-block;
+  float: left;
+  text-align: left;
+  text-decoration: none;
+  color: rgb(8, 52, 82);
+  margin-left: 2%;
+
+
+}
+
+.right-header {
+  display: inline-block;
+  width: 40%;
+  float: right;
+  text-align: right;
+  margin-top: 2%;
+  margin-right: 10%;
+}
+
+.right-header a {
+  text-decoration: none;
+  color: rgb(8, 52, 82);
+  margin: 1%;
 }
 
 .header h6 {
-  margin: 50px 300px 50px 300px;
-  padding: 50px 0px 50px 0px;
-  max-width: 900px
-  height:300px
-  position: relative;
-  bottom: 0px;
-  font-size: 60px;
+  font-size: 7vmax ;
+  font-weight: lighter;
   color: white;
   text-align: center;
+  margin: 0;
+  margin-top: 8%;
 }
 
 .header p {
   margin: 0;
   width: auto;
-  height:300px
-  position: relative;
-  bottom: 100px;
-  font-size: 10px;
+  height: 100%;
+  font-size: 1vmax;
   color: black;
   text-align: center;
+  margin-bottom: 20%;
 }
 
-
-.topnavbar {
-  position: relative;
-  top: 0;
-}
-
-.topnavbar ul li {
-  float: left;
-  display: inline-block;
-  text-decoration: none;
-  padding: 0px;
-  width:1000px;
-}
-
-.topnavbar div {
-  position: relative;
-  top:0px;
-}
-
-.topnavbar h6 {
-  position: relative;
-}
-
-.topnavbar p {
-  position: relative;
-}
 
 .section1 {
   float: left;
@@ -102,14 +130,15 @@ h6 {
   margin-left:10%
 }
 
+.section1 p {
+  font-size: 1.5vmax;
+}
+
 .topnavbar li {
   display: inline;
   width: 100%;
 }
 
-section {
-  height: 350px;
-}
 section h2 {
   font-size: 35px;
   width: auto;
@@ -117,60 +146,92 @@ section h2 {
 }
 
 aside {
-  margin-top: 30px;
   float: right;
-  width: 20%;
-  margin-right: 10%;
+  width: 25%;
+  margin-right: 5%;
+  display: inline-block;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.benie-guy {
+  background:linear-gradient(to right, rgba(30, 110, 176, 0.7), rgba(30, 110, 176, 0.7)), url(images/benie_guy.jpg);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  display:block;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  border: 3px;
+  border-color: black;
+  text-align: center;
+}
+
+
+.aside1 h1 {
+  display:block;
+  font-size: 2vmax;
+  text-align: center;
+  margin: 0;
+
+
+}
+
+.aside1 ul {
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+  padding-left: 0;
+  margin: 0;
+}
+
+.aside1 ul li {
+  display: inline-block;
+  width: 30%;
+  list-style-type: none;
+  font-size: 1vmax;
+  text-align: center;
+  margin-right: .5%;
+}
+
+.paddling-girl {
+  width: 100%;
+  height: 200px;
+  background:linear-gradient(to right, rgba(30, 110, 176, 0.7), rgba(30, 110, 176, 0.7)), url(images/paddleboard+girl.jpg) center center;
+  margin-top: 20%;
+  margin-bottom: 30%;
+}
+
+.paddling-girl-wrapper h3 {
+  width: 70%;
+  text-align: left;
+  font-size: 1.6vmax;
+  font-weight: 600;
 }
 
 .aside1 p {
-  width: 100%;
-}
-.aside1 ul li {
-  display: inline-block;
-  list-style-type: none;
-  font-size: 12px;
-}
-
-.aside1 div img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-  border: 2px;
-  border-color: black;
-
-}
-
-.aside1 p img {
-  text-align: center;
-  width: 100%;
-
-
-}
-
-.aside1 h1 {
-  font-size: 20px;
-  text-align: center;
-}
-
-.aside ul li p {
-  text-align: center;
+  text-align: left;
+  font-size: 1.5vmax;
 }
 
 .section2 {
   float: left;
   width: 50%;
   margin-left:10%;
-
+  display: inline-block;
 }
 
-.section2 div h3 {
+.section2 div {
+  border-left: 3px
+}
+
+.section2 h3 {
+  width: 100%;
+  height: 100%;
   list-style-type: none;
   display: inline-block;
-  padding: 5px;
   float: left;
   color:#232252;
   border-left: 2px;
@@ -181,46 +242,176 @@ aside {
 .section2 div p {
   float: left;
   text-align: left;
+  font-size: 1.5vmax;
+}
+
+.woah {
+  width: 100%;
+  height: 100%;
+  border: 2px;
+  border-color: black;
 }
 
 .section3 {
   display: hidden;
   width: 100%;
-  border-bottom: 2px;
-
 }
 
-.footer div ul {
-  display: block;
-  padding: 0;
-  list-style-type: none;
-  float: bottom;
+
+.footer {
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.footer-wrapper {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.footer img {
-  float: left;
   display: inline-block;
-  width: 25%;
-  height: 200px;
+  border-top: 2px solid grey;
 }
 
-.footer h2 {
-  margin-top: 500px;
-  margin-bottom: 30px;
-  padding-top: 30px;
-  font-size: 50px;
-  border-top: 2px solid;
-  border-color: #cacaca
-  float: left;
-  width: 100%;
+.footer div {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
-.transbox ul li img {
-  background: linear-gradient(rgb(62, 118, 175),rgb(62, 118, 175));
-  
-  opacity: .7;
+
+.footer h2 {
+  font-size: 5vmax;
+  border-color: #cacaca;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-top: 2px;
+  font-weight: 400;
+}
+
+.image-wrapper {
+  width: 100%;
+  margin-left: 2.5%;
+  margin-right: auto;
+}
+
+
+.image-wrapper div p {
+  width: 80%;
+  height: 20%;
+  text-align: left;
+  font-size: 1.5vmax;
+  position: relative;
+  top: 75%;
+  left: 3%;
+  margin: 0;
+  color: white;
+  font-size: 2vmax;
+}
+
+
+
+.kelly-slater {
+  display: inline-flex;
+  width: 24%;
+  height: 225px;
+  background: linear-gradient(to right, rgba(30, 110, 176, 0.7), rgba(30, 110, 176, 0.7)), url(images/kelly-slater-portrait.jpg) center center no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding: 0;
+  border: 0;
+}
+
+.kelly-slater:hover {
+  display: inline-flex;
+  width: 24%;
+  height: 225px;
+  background: linear-gradient(to right, rgba(30, 110, 176, 0), rgba(30, 110, 176, 0)), url(images/kelly-slater-portrait.jpg) center center no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding: 0;
+  border: 0;
+}
+
+.beer {
+  display: inline-flex;
+  width: 24%;
+  height: 225px;
+  background: linear-gradient(to right, rgba(30, 110, 176, 0.7), rgba(30, 110, 176, 0.7)), url(images/beer-glasses.jpg) center center no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.beer:hover {
+  display: inline-flex;
+  width: 24%;
+  height: 225px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/beer-glasses.jpg) center center no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.zac {
+  display: inline-flex;
+  width: 24%;
+  height: 225px;
+  background: linear-gradient(to right, rgba(30, 110, 176, 0.7), rgba(30, 110, 176, 0.7)), url(images/zach-gal.jpeg) center center no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.zac:hover {
+  display: inline-flex;
+  width: 24%;
+  height: 225px;
+  background: linear-gradient(to right, rgba(30, 110, 176, 0), rgba(30, 110, 176, 0)), url(images/zach-gal.jpeg) center center no-repeat;
+  background-size: cover;
+  margin: 0;
+
+}
+
+.liquor {
+  display: inline-flex;
+  width: 24%;
+  height: 225px;
+  background: linear-gradient(to right, rgba(30, 110, 176, 0.7), rgba(30, 110, 176, 0.7)), url(images/liquor_bottles.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.liquor:hover {
+  display: inline-flex;
+  width: 24%;
+  height: 225px;
+  background: linear-gradient(to right, rgba(30, 110, 176, 0), rgba(30, 110, 176, 0)), url(images/liquor_bottles.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.bottom-nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 51, 80);
+  width: 98%;
+}
+
+.copyright {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  height: 50%;
+  text-align: left;
+  font-size: 1vmax;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.nav-item {
+  display: inline-block;
+  width: 50%;
+  float: right;
+
+}
+
+.nav-item ul li{
+  list-style-type: none;
+  display: inline-block;
+  font-size: 1vmax;
 }
